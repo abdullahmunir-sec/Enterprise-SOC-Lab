@@ -27,13 +27,12 @@ The lab environment consists of multiple isolated networks:
 
 The following infrastructure components have been deployed:
 
-The following infrastructure components have been deployed:
-
 - Multi-interface pfSense firewall enforcing network segmentation
 - Windows 11 enterprise endpoint
 - Kali Linux attacker workstation
 - Metasploitable 2 vulnerable server
 - Ubuntu Server prepared for Splunk SIEM deployment
+- Windows Server 2022 Domain Controller with Active Directory (test.local)
 
 ## Monitoring Platform
 

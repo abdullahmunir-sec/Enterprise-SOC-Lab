@@ -62,5 +62,9 @@ Initial attack simulations have been performed to validate monitoring and detect
 - Generated ICMP traffic to simulate basic communication
 - Monitored and analyzed activity using Security Onion
 - Verified detection of scanning behavior and network traffic visibility
+- Performed Kerberos-based brute force attack against AD user `hr1`
+- Observed multiple pre-authentication failures (Event ID 4771) followed by a successful TGT request (Event ID 4768)
+- Investigated authentication patterns in Splunk SIEM
+- Identified behavior consistent with credential brute force attack
 
 This marks the transition from lab setup to active SOC monitoring and detection.
